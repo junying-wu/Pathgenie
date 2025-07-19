@@ -1,4 +1,5 @@
-# Pathgenie
+# Pathgenie-Your AI Travel Agent
+
 ## **Brief Intro**
 Planning a trip can be a time-consuming and overwhelming task, especially for those unsure where to begin or how to prioritize. It often involves navigating multiple platforms, filtering through outdated reviews, and managing the fear of missing out on key experiences.
 
