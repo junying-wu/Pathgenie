@@ -5,6 +5,17 @@ Planning a trip can be a time-consuming and overwhelming task, especially for th
 
 Pathgenie is an AI-powered travel agent designed to streamline this process. By combining local data with natural language understanding, it generates personalized, weather-aware itineraries tailored to individual preferences. From recommended attractions and dining options to smart scheduling aligned with weather conditions and meal times, Pathgenie helps users travel smarter and with greater ease.
 
+
+## Workflow
+
+1. **User Input:** Provide city, date, must-visit places, and preferences.  
+2. **Data Loading & Filtering:** Load and filter business data (restaurants, attractions) by meal times and categories.  
+3. **Weather Integration:** Fetch weather forecast via WeatherAPI.  
+4. **Content Generation:** Generate city intro and weather-based travel tips using Ollama LLM.  
+5. **Itinerary Creation:** Build itinerary including must-visit and recommended places, meal breaks, adjusted for preferences and date. 
+6. **Travel Time Estimation:** Calculate approximate travel times between stops.  
+7. **Output:** Display itinerary with detailed info and provide download option as a text file.
+   
 ## **Data Instructions**
 
 Pathgenie uses a **local dataset** containing information on restaurants, attractions, and their operating hours.
